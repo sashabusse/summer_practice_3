@@ -22,7 +22,7 @@ def f(x):
 N = 1000
 x = np.linspace(0, 1, N)
 
-#граничные условия в виде
+#boundary condition
 #alpha[0]*u(0) + alpha[1]*u'(0) = alpha[2]
 #betta[0]*u(0) + betta[1]*u'(0) = betta[2]
 alpha = np.array([0, k(0), 0])
